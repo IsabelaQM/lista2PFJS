@@ -31,7 +31,7 @@ window.addEventListener("load", function () {
 
     // g) Exibir todas as idades maiores ou iguais a determinada idade
     var idadesMaioresOuIguais = idades.filter(idade => idade >= valorInformado);
-    document.write(`<p>As idades maiores ou iguais a ${valorInformado} sãos: ${idadesMaioresOuIguais.join(', ')}</p>`);
+    document.write(`<p>As idades maiores ou iguais a ${valorInformado} : ${idadesMaioresOuIguais.join(', ')}</p>`);
 
     // h) Média das idades das pessoas com idades maiores ou iguais a determinada idade
     var mediaIdadesMaioresOuIguais = idadesMaioresOuIguais.reduce((total, idade) => total + idade, 0) / idadesMaioresOuIguais.length;
